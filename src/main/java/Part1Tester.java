@@ -23,6 +23,8 @@ public class Part1Tester extends Tester {
         };
     }
 
+    // Ideally we'd use a JComponent, but we're already using that in Part 2, so let's try something different.
+    // We could paint directly to the JFrame with pretty much identical code, but that's boring.
     private static class IconPanel extends JPanel {
         private final CompositeIcon icon;
 
